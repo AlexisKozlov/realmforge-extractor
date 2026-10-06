@@ -12,7 +12,7 @@ using System.Text;
 
 namespace RealmForge {
   public static partial class RFX {
-    // the result screens: the guild dragon, the weekly guild boss, the rest, the arena (GameData.lua: CHAPTERTYPE.Pvp ->
+    // the result screens: the guild dragon, the weekly guild boss, the rest, the arena (CHAPTERTYPE.Pvp ->
     // Form_PvpBattleEnd) and the friendly arena fight (Form_SparringPvpBattleEnd); ids = UIDefines (str_hash of the name)
     static readonly long[] EndFormIds = { 120547448, -1195555340, -1876004196, 594344064, -2082158110 };
     static readonly string[] EndFormNames = { "Form_UnionBossBattleEnd", "Form_UnionWeekBossBattleEnd", "Form_BattleEnd", "Form_PvpBattleEnd", "Form_SparringPvpBattleEnd" };
